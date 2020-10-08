@@ -15,6 +15,9 @@ class ApiClient:
 def url_api_dog(request):
     return ApiClient(base_address="https://dog.ceo/api/")
 
+@pytest.fixture(scope="session")
+def url_api_dog(request):
+    return ApiClient(base_address="https://dog.ceo/api/")
 
 @pytest.fixture()
 def schema_dog_json():

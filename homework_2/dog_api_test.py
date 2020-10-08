@@ -1,4 +1,3 @@
-import requests
 import pytest
 from jsonschema import validate
 
