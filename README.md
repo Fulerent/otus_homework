@@ -23,6 +23,6 @@ status_code - значение по умолчанию 200
 Основная задача чтобы ваш тест проверял по переданному урлу статус ответа тот который передали,
 т.е. по адресу https://ya.ru/sfhfhfhfhfhfhfhfh должен быть валидным ответ 404
 
-Запуск - <i> pytest get_status_site_test.py --url=https://ya.ru/sfhfhfhfhfhfhfhfh --status_code=404 </i>
+Запуск - <code> pytest get_status_site_test.py --url=https://ya.ru/sfhfhfhfhfhfhfhfh --status_code=404 </code>
 
 
