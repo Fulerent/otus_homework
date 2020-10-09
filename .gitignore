@@ -1,2 +1,5 @@
 /venv
 /.idea
+homework_2/__pycache__/conftest.cpython-38-pytest-5.4.1.pyc
+homework_2/__pycache__/get_status_site_test.cpython-38-pytest-5.4.1.pyc
+homework_2/__pycache__/get_status_test.cpython-38-pytest-5.4.1.pyc
